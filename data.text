@@ -1,0 +1,33 @@
+{
+    "initials":"AÅ",
+    "headerText":"Andreas Åker - Portfolio",
+    "description":"This is the description.",
+    "projects": [
+        {"name":"Simple resturant",
+        "desc":"Goal was to create a easy to use resturant site. <br/>Tech: ReactJS connected to Google firebase.",
+        "link":"https://github.com/andreasaker/risturante_react_firebase",
+        "image_path":"risturante.png"
+        },
+        {"name":"Simple resturant 2",
+        "desc":"Goal was to create a easy to use resturant site. Tech: ReactJS connected to Google firebase.",
+        "link":"https://github.com/andreasaker/risturante_react_firebase",
+        "image_path":"risturante.png"
+        },
+        {"name":"Simple resturant 3",
+        "desc":"Goal was to create a easy to use resturant site. Tech: ReactJS connected to Google firebase.",
+        "link":"",
+        "image_path":"risturante.png"
+        },
+        {"name":"Simple resturant 4",
+        "desc":"Goal was to create a easy to use resturant site. Tech: ReactJS connected to Google firebase.",
+        "link":"https://github.com/andreasaker/risturante_react_firebase",
+        "image_path":"risturante.png"
+        },
+        {"name":"Simple resturant 5",
+        "desc":"Goal was to create a easy to use resturant site. Tech: ReactJS connected to Google firebase.",
+        "link":"https://github.com/andreasaker/risturante_react_firebase",
+        "image_path":"risturante.png"
+        }
+        
+    ]
+}

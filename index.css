@@ -1,0 +1,155 @@
+html {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: #2d3436;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 2vw auto 2vw;
+  grid-template-rows: auto auto auto 11rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 4.5rem;
+  margin: 1rem 0 1rem 0;
+}
+
+p {
+  font-size: 3rem;
+}
+
+a {
+  font-size: 3rem;
+  color: #6495ed;
+}
+
+#header {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: auto 17rem auto;
+  grid-template-rows: auto;
+}
+
+#logo {
+  grid-column: 2;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  width: 17rem;
+  height: 17rem;
+  background-color: #6495ed;
+  color: #ffffff;
+}
+
+#initials {
+  font-size: 10rem;
+  padding: 1rem 1rem 1rem 2rem;
+  font-weight: 300;
+}
+
+#header-text {
+  grid-column: 2;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+#description {
+  grid-column: 2 / 3;
+  grid-row: 2;
+  height: 10vw;
+}
+
+#projects {
+  grid-column: 2;
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+}
+
+.project-card img {
+  width: 100%;
+}
+
+.project-card {
+  height: auto;
+  margin-bottom: 3rem;
+  box-shadow: 0px 0.3rem 0.5rem #80808069;
+  padding: 2rem;
+}
+
+.project-card p {
+  margin-top: 0;
+}
+
+footer {
+  grid-column: 2/3;
+  grid-row: 4;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+footer div {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    grid-template-columns: 2vw auto 2vw;
+  }
+
+  #header {
+    grid-template-columns: 2vw 5rem auto;
+  }
+
+  #logo {
+    grid-column: 2;
+    width: 5rem;
+    height: 5rem;
+  }
+
+  #initials {
+    font-size: 2.3rem;
+    padding: 1rem 1rem 1rem 1rem;
+    font-weight: 300;
+  }
+
+  #header-text {
+    grid-column: 3;
+    margin-top: 3rem;
+    padding: 1.5rem 5rem 0 0;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  #description {
+    height: 5vw;
+  }
+
+  #projects {
+    grid-template-columns: 31vw 31vw 31vw;
+    gap: 1rem;
+  }
+
+  .project-card {
+    height: auto;
+    margin-bottom: 3rem;
+    box-shadow: 0px 0.2rem 0.5rem #d5d5d5a8;
+    padding: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem 0;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+  a {
+    font-size: 1rem;
+  }
+}
