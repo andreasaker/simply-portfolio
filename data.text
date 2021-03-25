@@ -1,33 +1,42 @@
 {
-    "initials":"AÅ",
-    "headerText":"Andreas Åker - Portfolio",
-    "description":"This is the description.",
-    "projects": [
-        {"name":"Simple resturant",
-        "desc":"Goal was to create a easy to use resturant site. <br/>Tech: ReactJS connected to Google firebase.",
-        "link":"https://github.com/andreasaker/risturante_react_firebase",
-        "image_path":"risturante.png"
-        },
-        {"name":"Simple resturant 2",
-        "desc":"Goal was to create a easy to use resturant site. Tech: ReactJS connected to Google firebase.",
-        "link":"https://github.com/andreasaker/risturante_react_firebase",
-        "image_path":"risturante.png"
-        },
-        {"name":"Simple resturant 3",
-        "desc":"Goal was to create a easy to use resturant site. Tech: ReactJS connected to Google firebase.",
-        "link":"",
-        "image_path":"risturante.png"
-        },
-        {"name":"Simple resturant 4",
-        "desc":"Goal was to create a easy to use resturant site. Tech: ReactJS connected to Google firebase.",
-        "link":"https://github.com/andreasaker/risturante_react_firebase",
-        "image_path":"risturante.png"
-        },
-        {"name":"Simple resturant 5",
-        "desc":"Goal was to create a easy to use resturant site. Tech: ReactJS connected to Google firebase.",
-        "link":"https://github.com/andreasaker/risturante_react_firebase",
-        "image_path":"risturante.png"
-        }
-        
-    ]
+  "initials": "AÅ",
+  "headerText": "Andreas Åker - Portfolio",
+  "description": "This is the description.",
+  "projects": [
+    {
+      "name": "Simple resturant",
+      "desc": "Goal was to create a easy to use resturant site. <br/>Tech: ReactJS connected to Google firebase.",
+      "gitlink": "https://github.com/andreasaker/risturante_react_firebase",
+      "link": "",
+      "image_path": "risturante.png"
+    },
+    {
+      "name": "Mailchimp extended",
+      "desc": "Mailchimp is great for sending mass emails. But adding new contacts and managing them is a hassle and so i built a new frontend connected to Mailchimp API. Right now i am also integratin our other database with it.<br/>Tech: ReactJS connected to Mailchimp API",
+      "gitlink": "",
+      "link": "",
+      "image_path": "mailchimpextended.jpg"
+    },
+    {
+      "name": "Action cable portfolio",
+      "desc": "Learning project when ActionCable for Ruby on rails were new. <br/>Tech: Ruby, Rails, JS, Postgresql",
+      "gitlink": "https://github.com/andreasaker/Portfolio-website",
+      "link": "https://polar-beyond-40362.herokuapp.com/",
+      "image_path": "actioncableport.png"
+    },
+    {
+      "name": "Machine ad scraper",
+      "desc": "Webb app that scrapes machine selling sites and auctions for machine ads.<br/>Tech: Ruby, Rails, Bootstrap, postgresql",
+      "gitlink": "",
+      "link": "",
+      "image_path": "risturante.png"
+    },
+    {
+      "name": "SMT Sweden old websites",
+      "desc": "Developed all old websites for SMT Sweden.<br/>Tech: Ruby, Rails, JS, Postgresql",
+      "gitlink": "",
+      "link": "",
+      "image_path": "risturante.png"
+    }
+  ]
 }

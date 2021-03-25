@@ -5,6 +5,7 @@ xmlhttp.onreadystatechange = function () {
     console.log("parisng");
     data = JSON.parse(this.responseText);
     populateSite(data);
+    scanForButtons();
   }
 };
 
@@ -45,10 +46,41 @@ const renderProjects = (projects) => {
 
     card.appendChild(elementBuilder("h2", p.name));
     card.appendChild(elementBuilder("p", p.desc));
-    if (p.link.length > 0) {
+    if (p.gitlink.length > 0) {
       let link = elementBuilder("a", "Github");
+      link.setAttribute("href", p.gitlink);
+      card.appendChild(link);
+    }
+    if (p.link.length > 0) {
+      let link = elementBuilder("a", "Live site");
       link.setAttribute("href", p.link);
       card.appendChild(link);
     }
+
+    let button = elementBuilder("button", "Read more");
+    button.setAttribute("class", "read-more");
+    button.setAttribute("value", i);
+    card.appendChild(button);
   });
+};
+
+const scanForButtons = () => {
+  let buttons = document.getElementsByClassName("read-more");
+  for (let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", renderContent, false);
+  }
+};
+
+const renderContent = (event) => {
+  let id = event.target.getAttribute("value");
+  console.log(id);
+  document.getElementById("projects").style.display = "none";
+  const project = data.projects[id];
+  let content = document.getElementById("content");
+  content.style.display = "grid";
+  content
+    .getElementsByTagName("img")[0]
+    .setAttribute("src", "/assets/" + project.image_path);
+  content.getElementsByTagName("h2")[0].innerHTML = project.name;
+  content.getElementsByTagName("p")[0].innerHTML = project.desc;
 };

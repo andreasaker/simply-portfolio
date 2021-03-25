@@ -32,6 +32,11 @@ a {
   grid-template-rows: auto;
 }
 
+#header a {
+  grid-column: 2;
+  margin: 0;
+}
+
 #logo {
   grid-column: 2;
   margin-top: 3rem;
@@ -96,6 +101,19 @@ footer div {
   padding-top: 2rem;
 }
 
+#content {
+  display: none;
+  grid-column: 2;
+  grid-row: 3;
+  grid-template-columns: 93vw;
+  gap: 1rem;
+}
+
+#content img {
+  width: 100%;
+  overflow: hidden;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     grid-template-columns: 2vw auto 2vw;
@@ -151,5 +169,6 @@ footer div {
   }
   a {
     font-size: 1rem;
+    margin-left: 0.5rem;
   }
 }
