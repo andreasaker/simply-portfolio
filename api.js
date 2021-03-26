@@ -69,6 +69,8 @@ const scanForButtons = () => {
   for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("click", renderContent, false);
   }
+  let closeContentButton = document.getElementById("close-content-button");
+  closeContentButton.addEventListener("click", closeContent, false);
 };
 
 const renderContent = (event) => {
@@ -83,4 +85,9 @@ const renderContent = (event) => {
     .setAttribute("src", "/assets/" + project.image_path);
   content.getElementsByTagName("h2")[0].innerHTML = project.name;
   content.getElementsByTagName("p")[0].innerHTML = project.desc;
+};
+
+const closeContent = () => {
+  document.getElementById("projects").style.display = "grid";
+  document.getElementById("content").style.display = "none";
 };
