@@ -6,37 +6,53 @@
     {
       "name": "Simple resturant",
       "desc": "Goal was to create a easy to use resturant site. <br/>Tech: ReactJS connected to Google firebase.",
+      "text": "",
       "gitlink": "https://github.com/andreasaker/risturante_react_firebase",
       "link": "",
-      "image_path": "risturante.png"
+      "image_paths": [
+        "risturante.png",
+        "mailchimpextended.jpg"
+      ]
     },
     {
       "name": "Mailchimp extended",
-      "desc": "Mailchimp is great for sending mass emails. But adding new contacts and managing them is a hassle and so i built a new frontend connected to Mailchimp API. Right now i am also integratin our other database with it.<br/>Tech: ReactJS connected to Mailchimp API",
+      "desc": "Making searching, creating, editing contacts easier for my coworkers.<br/>Tech: ReactJS connected to Mailchimp API",
+      "text": "Mailchimp is great for sending mass emails. But adding new contacts and managing them is a hassle and so i built a new frontend connected to Mailchimp API. Right now i am also integratin our other database with it.<br/>Tech: ReactJS connected to Mailchimp API",
       "gitlink": "",
       "link": "",
-      "image_path": "mailchimpextended.jpg"
+      "image_paths": [
+        "mailchimpextended.jpg"
+      ]
     },
     {
       "name": "Action cable portfolio",
       "desc": "Learning project when ActionCable for Ruby on rails were new. <br/>Tech: Ruby, Rails, JS, Postgresql",
+      "text": "",
       "gitlink": "https://github.com/andreasaker/Portfolio-website",
       "link": "https://polar-beyond-40362.herokuapp.com/",
-      "image_path": "actioncableport.png"
+      "image_paths": [
+        "actioncableport.png"
+      ]
     },
     {
       "name": "Machine ad scraper",
       "desc": "Webb app that scrapes machine selling sites and auctions for machine ads.<br/>Tech: Ruby, Rails, Bootstrap, postgresql",
+      "text": "",
       "gitlink": "",
       "link": "",
-      "image_path": "risturante.png"
+      "image_paths": [
+        "risturante.png"
+      ]
     },
     {
       "name": "SMT Sweden old websites",
       "desc": "Developed all old websites for SMT Sweden.<br/>Tech: Ruby, Rails, JS, Postgresql",
+      "text": "",
       "gitlink": "",
       "link": "",
-      "image_path": "risturante.png"
+      "image_paths": [
+        "risturante.png"
+      ]
     }
   ]
 }

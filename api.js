@@ -40,9 +40,14 @@ const renderProjects = (projects) => {
     let card = createCard(i);
     document.getElementById("projects").appendChild(card);
 
+    let imagebox = document.createElement("div");
+    imagebox.setAttribute("class", "imagebox");
+
     let image = document.createElement("img");
-    image.setAttribute("src", "/assets/" + p.image_path);
-    card.appendChild(image);
+    image.setAttribute("src", "/assets/" + p.image_paths[0]);
+
+    imagebox.appendChild(image);
+    card.appendChild(imagebox);
 
     card.appendChild(elementBuilder("h2", p.name));
     card.appendChild(elementBuilder("p", p.desc));
@@ -75,19 +80,34 @@ const scanForButtons = () => {
 
 const renderContent = (event) => {
   let id = event.target.getAttribute("value");
-  console.log(id);
   document.getElementById("projects").style.display = "none";
   const project = data.projects[id];
   let content = document.getElementById("content");
   content.style.display = "grid";
-  content
-    .getElementsByTagName("img")[0]
-    .setAttribute("src", "/assets/" + project.image_path);
   content.getElementsByTagName("h2")[0].innerHTML = project.name;
   content.getElementsByTagName("p")[0].innerHTML = project.desc;
+  let content_links = document.getElementById("content_links");
+  if (project.gitlink.length > 0) {
+    let link = elementBuilder("a", "Github");
+    link.setAttribute("href", project.gitlink);
+    content_links.appendChild(link);
+  }
+  if (project.link.length > 0) {
+    let link = elementBuilder("a", "Live site");
+    link.setAttribute("href", project.link);
+    content_links.appendChild(link);
+  }
+  let content_images = document.getElementById("content_images");
+  for (let i = 0; i < project.image_paths.length; i++) {
+    let image = document.createElement("img");
+    image.setAttribute("src", "/assets/" + project.image_paths[i]);
+    content_images.appendChild(image);
+  }
 };
 
 const closeContent = () => {
   document.getElementById("projects").style.display = "grid";
   document.getElementById("content").style.display = "none";
+  document.getElementById("content_links").innerHTML = "";
+  document.getElementById("content_images").innerHTML = "";
 };
