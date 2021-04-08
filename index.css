@@ -143,7 +143,7 @@ footer div {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   body {
     grid-template-columns: 2vw auto 2vw;
   }
@@ -201,6 +201,27 @@ footer div {
     padding: 0;
     line-height: 16px;
     margin: 0 0.3rem 0 0.3rem;
+  }
+
+  #close-content-button {
+    font-size: 1rem;
+  }
+
+  #content {
+    grid-template-columns: 8vw auto 8vw;
+  }
+
+  #content article {
+    grid-column: 2;
+  }
+
+  #content article p {
+    letter-spacing: -0.003em;
+    line-height: 32px;
+  }
+
+  #content img {
+    padding: 1rem;
   }
 
   h2 {
