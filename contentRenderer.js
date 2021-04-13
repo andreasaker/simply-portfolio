@@ -79,6 +79,7 @@ const scanForButtons = () => {
 };
 
 const renderContent = (event) => {
+  window.scrollTo(0, 0);
   let id = event.target.getAttribute("value");
   document.getElementById("projects").style.display = "none";
   const project = data.projects[id];

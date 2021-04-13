@@ -7,8 +7,8 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname + "/index.html"));
 });
 
-app.get("/api.js", (req, res) => {
-  res.sendFile(path.join(__dirname + "/api.js"));
+app.get("/contentRenderer.js", (req, res) => {
+  res.sendFile(path.join(__dirname + "/contentRenderer.js"));
 });
 
 app.get("/data.text", (req, res) => {

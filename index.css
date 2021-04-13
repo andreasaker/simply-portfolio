@@ -1,6 +1,7 @@
 html {
   font-family: "M PLUS Rounded 1c", sans-serif;
   color: #2d3436;
+  scroll-behavior: smooth;
 }
 
 body {
