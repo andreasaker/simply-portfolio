@@ -29,7 +29,7 @@
     {
       "name": "Action cable portfolio",
       "desc": "Learning project when ActionCable for Ruby on rails were new. <br/>Tech: Ruby on Rails, Javascript, Postgresql",
-      "text": "Learning project when ActionCable for Ruby on rails were new. <br/>Tech: Ruby on Rails, Javascript, Postgresql",
+      "text": "Learning project when ActionCable for Ruby on rails were new. Add, edit and remove new projects in real-time.<br/>Tech: Ruby on Rails, Javascript, Postgresql",
       "gitlink": "https://github.com/andreasaker/Portfolio-website",
       "link": "https://polar-beyond-40362.herokuapp.com/",
       "image_paths": [
@@ -56,7 +56,17 @@
       "gitlink": "",
       "link": "",
       "image_paths": [
-        "risturante.png"
+        "smt_website/smt1.png",
+        "smt_website/smt2.png",
+        "smt_website/smt3.png",
+        "smt_website/smt4.png",
+        "smt_website/smt5.png",
+        "smt_website/smt6.png",
+        "smt_website/smt8.gif",
+        "smt_website/smt7.png",
+        "smt_website/smt10.gif",
+        "smt_website/smt9.png"
+        
       ]
     }
   ]
