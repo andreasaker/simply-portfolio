@@ -4,30 +4,32 @@
   "description": "This is the description.",
   "projects": [
     {
-      "name": "Simple resturant",
-      "desc": "Goal was to create a easy to use resturant site. <br/>Tech: ReactJS connected to Google firebase.",
-      "text": "",
+      "name": "Simple restaurant",
+      "desc": "Easy to use restaurant site. <br/>Tech: ReactJS connected to Google firebase.",
+      "text": "Easy to use restaurant site and first serious try with ReactJS.<br/>Tech: ReactJS connected to Google firebase.",
       "gitlink": "https://github.com/andreasaker/risturante_react_firebase",
       "link": "",
       "image_paths": [
         "risturante.png",
-        "mailchimpextended.jpg"
+        "risturante2.png"
       ]
     },
     {
       "name": "Mailchimp extended",
       "desc": "Making searching, creating, editing contacts easier for my coworkers.<br/>Tech: ReactJS connected to Mailchimp API",
-      "text": "Mailchimp is great for sending mass emails. But adding new contacts and managing them is a hassle and so i built a new frontend connected to Mailchimp API. Right now i am also integratin our other database with it.<br/>Tech: ReactJS connected to Mailchimp API",
+      "text": "Mailchimp is great for sending mass emails, but adding new contacts and managing them is a hassle and so i built a new frontend connected to Mailchimp API. Right now I am also integrating our other database with it.<br/>Tech: ReactJS connected to Mailchimp API, Heroku, Javascript",
       "gitlink": "",
       "link": "",
       "image_paths": [
-        "mailchimpextended.jpg"
+        "mailchimpextended.jpg",
+        "mailchimpextended2.gif",
+        "mailchimpextended3.gif"
       ]
     },
     {
       "name": "Action cable portfolio",
-      "desc": "Learning project when ActionCable for Ruby on rails were new. <br/>Tech: Ruby, Rails, JS, Postgresql",
-      "text": "",
+      "desc": "Learning project when ActionCable for Ruby on rails were new. <br/>Tech: Ruby on Rails, Javascript, Postgresql",
+      "text": "Learning project when ActionCable for Ruby on rails were new. <br/>Tech: Ruby on Rails, Javascript, Postgresql",
       "gitlink": "https://github.com/andreasaker/Portfolio-website",
       "link": "https://polar-beyond-40362.herokuapp.com/",
       "image_paths": [
@@ -36,18 +38,21 @@
     },
     {
       "name": "Machine ad scraper",
-      "desc": "Webb app that scrapes machine selling sites and auctions for machine ads.<br/>Tech: Ruby, Rails, Bootstrap, postgresql",
-      "text": "",
+      "desc": "Scraper which looks at ad-sites and picks out the interesting ads.<br/>Tech: Ruby on Rails, phantomjs, Bootstrap",
+      "text": "Built a scraper which looks at ad-sites and picks out the interesting ads and displays them on an easy to use website. They are saved to the postgresql database. The most difficult sites to scrape were the auction sites. They often use real time rendering javascript which the scraper had problem picking up sometimes.<br/>Tech: Ruby on Rails, phantomjs, Bootstrap, Javascript, Postgresql, Heroku",
       "gitlink": "",
       "link": "",
       "image_paths": [
-        "risturante.png"
+        "oraklet1.jpg",
+        "oraklet2.jpg",
+        "oraklet3.jpg",
+        "oraklet4.jpg"
       ]
     },
     {
-      "name": "SMT Sweden old websites",
-      "desc": "Developed all old websites for SMT Sweden.<br/>Tech: Ruby, Rails, JS, Postgresql",
-      "text": "",
+      "name": "SMT Swedens website",
+      "desc": "Old website for the company I work for.<br/>Tech: Ruby on rails, Foundation-css, Javascript, Heroku ",
+      "text": "Old website for the company I work for.<br/>Built on Ruby on rails connected to a Postgres database. Styling made with the help of Foundation css framework. And extra features as draggable sorting list made with javascript.<br />Tech: Ruby on rails, Postgres, Cloudinary, Foundation-css, Javascript, Heroku",
       "gitlink": "",
       "link": "",
       "image_paths": [

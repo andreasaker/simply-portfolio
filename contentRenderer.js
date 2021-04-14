@@ -51,21 +51,25 @@ const renderProjects = (projects) => {
 
     card.appendChild(elementBuilder("h2", p.name));
     card.appendChild(elementBuilder("p", p.desc));
+
+    let bottomBar = elementBuilder("div", "", "project-card-footer");
+    card.appendChild(bottomBar);
+
     if (p.gitlink.length > 0) {
       let link = elementBuilder("a", "Github");
       link.setAttribute("href", p.gitlink);
-      card.appendChild(link);
+      bottomBar.appendChild(link);
     }
     if (p.link.length > 0) {
       let link = elementBuilder("a", "Live site");
       link.setAttribute("href", p.link);
-      card.appendChild(link);
+      bottomBar.appendChild(link);
     }
 
     let button = elementBuilder("button", "Read more");
     button.setAttribute("class", "read-more");
     button.setAttribute("value", i);
-    card.appendChild(button);
+    bottomBar.appendChild(button);
   });
 };
 
@@ -79,14 +83,14 @@ const scanForButtons = () => {
 };
 
 const renderContent = (event) => {
-  window.scrollTo(0, 0);
+  setTimeout(window.scrollTo(0, 1), 100);
   let id = event.target.getAttribute("value");
   document.getElementById("projects").style.display = "none";
   const project = data.projects[id];
   let content = document.getElementById("content");
   content.style.display = "grid";
   content.getElementsByTagName("h2")[0].innerHTML = project.name;
-  content.getElementsByTagName("p")[0].innerHTML = project.desc;
+  content.getElementsByTagName("p")[0].innerHTML = project.text;
   let content_links = document.getElementById("content_links");
   if (project.gitlink.length > 0) {
     let link = elementBuilder("a", "Github");
