@@ -2,12 +2,16 @@ html {
   font-family: "M PLUS Rounded 1c", sans-serif;
   color: #2d3436;
   scroll-behavior: smooth;
+  height: 100%;
+  width: 100%;
 }
 
 body {
+  height: 100%;
+  width: 100%;
   display: grid;
   grid-template-columns: 2vw auto 2vw;
-  grid-template-rows: auto auto auto 11rem;
+  grid-template-rows: auto auto 1fr 11rem;
   margin: 0;
 }
 
@@ -86,6 +90,21 @@ button {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
+  animation: fade-up 700ms;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    margin-top: 4%;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
 }
 
 .project-card .imagebox {
@@ -145,6 +164,21 @@ footer div {
   grid-row: 3;
   grid-template-columns: 93vw;
   gap: 1rem;
+  animation: fade-down 500ms;
+}
+
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    margin-top: -4%;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
 }
 
 #content img {
