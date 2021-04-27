@@ -49,6 +49,17 @@
       ]
     },
     {
+      "name": "Portfolio",
+      "desc": "This portfolio site. <br/>Tech: Node-express, JS, json",
+      "text": "Simple portfoio that is easy to use and maintain. Just edit and add projects to the json file and images to the asset folder. Built with Javascript, Html, css and driven on Node-express server hosted at Heroku.<br/>Tech: Node-express, JS, json as 'database'",
+      "gitlink": "https://github.com/andreasaker/simply-portfolio",
+      "link": "",
+      "image_paths": [
+        "portfolio1.jpg",
+        "portfolio2.jpg"
+      ]
+    },
+    {
       "name": "Simple restaurant",
       "desc": "Easy to use restaurant site. <br/>Tech: ReactJS connected to Google firebase.",
       "text": "Easy to use restaurant site and first serious try with ReactJS.<br/>Tech: ReactJS connected to Google firebase.",
@@ -57,17 +68,6 @@
       "image_paths": [
         "risturante.png",
         "risturante2.png"
-      ]
-    },
-    
-    {
-      "name": "Action cable portfolio",
-      "desc": "Learning project when ActionCable for Ruby on rails were new. <br/>Tech: Ruby on Rails, Javascript, Postgresql",
-      "text": "Learning project when ActionCable for Ruby on rails were new. Add, edit and remove new projects in real-time.<br/>Tech: Ruby on Rails, Javascript, Postgresql",
-      "gitlink": "https://github.com/andreasaker/Portfolio-website",
-      "link": "https://polar-beyond-40362.herokuapp.com/",
-      "image_paths": [
-        "actioncableport.png"
       ]
     }
   ]
