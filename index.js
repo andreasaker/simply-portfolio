@@ -11,6 +11,10 @@ app.get("/contentRenderer.js", (req, res) => {
   res.sendFile(path.join(__dirname + "/contentRenderer.js"));
 });
 
+app.get("/themeSwitch.js", (req, res) => {
+  res.sendFile(path.join(__dirname + "/themeSwitch.js"));
+});
+
 app.get("/data.text", (req, res) => {
   res.sendFile(path.join(__dirname + "/data.text"));
 });

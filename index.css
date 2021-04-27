@@ -1,3 +1,12 @@
+body[dark] {
+  background-color: #2d3436;
+  color: #d2dae2;
+}
+
+body[dark] img {
+  filter: brightness(0.9);
+}
+
 html {
   font-family: "M PLUS Rounded 1c", sans-serif;
   color: #2d3436;
@@ -72,6 +81,10 @@ button {
   font-weight: 300;
 }
 
+#switch-theme {
+  font-size: 1rem;
+}
+
 #header-text {
   grid-column: 2;
   font-size: 1.4rem;
@@ -117,6 +130,11 @@ button {
   width: 100%;
 }
 
+body[dark] .project-card {
+  box-shadow: 0px 0.3rem 0.5rem #000000a8;
+  background-color: #3c4244;
+}
+
 .project-card {
   height: auto;
   margin-bottom: 3rem;
@@ -149,7 +167,7 @@ footer {
   grid-column: 2/3;
   grid-row: 4;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
 }
 
 footer div {
@@ -243,7 +261,6 @@ footer div {
 
   .project-card button {
     border: none;
-    background-color: #ffffff;
     color: #6495ed;
     font-size: 1rem;
     border-bottom: 1px solid;
