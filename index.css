@@ -82,7 +82,8 @@ button {
 }
 
 #switch-theme {
-  font-size: 1rem;
+  font-size: 1.3rem;
+  padding-top: 0.55rem;
 }
 
 #header-text {
@@ -301,5 +302,8 @@ footer div {
   a {
     font-size: 1rem;
     margin-left: 0.5rem;
+  }
+  #switch-theme {
+    font-size: 1rem;
   }
 }
