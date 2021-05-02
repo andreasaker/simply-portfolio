@@ -164,6 +164,31 @@ body[dark] .project-card {
 #content a {
   margin: 0 2.3rem 0 0;
 }
+
+#up-button {
+  display: none;
+  background-color: #6495ed;
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+  background: radial-gradient(
+    circle,
+    rgb(133, 176, 255) 15%,
+    rgb(100, 149, 237) 78%
+  );
+}
+
+#up-button div {
+  padding: 0 0 0 0.6rem;
+  font-size: 3rem;
+  margin-top: -0.4rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+
 footer {
   grid-column: 2/3;
   grid-row: 4;
