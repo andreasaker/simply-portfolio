@@ -6,7 +6,7 @@
     {
       "name": "SMT Swedens website",
       "desc": "Old website for the company I work for.<br/>Tech: Ruby on rails, Foundation-css, Javascript, Heroku ",
-      "text": "Old website for the company I work for.<br/>Built on Ruby on rails connected to a Postgres database. Styling made with the help of Foundation css framework. And extra features as draggable sorting list made with javascript.<br />Tech: Ruby on rails, Postgres, Cloudinary, Foundation-css, Javascript, Heroku",
+      "text": "Old website for the company I work for.<br/>Built on Ruby on rails connected to a Postgres database. <br/>Styling made with the help of Foundation css framework. <br/>Some stand out features, draggable sorting list, multilingual site and the select buttons (see pictures)<br /><br/>Tech: Ruby on rails, Postgres, Cloudinary, Foundation-css, Javascript, Heroku",
       "gitlink": "",
       "link": "",
       "image_paths": [
@@ -26,7 +26,7 @@
     {
       "name": "Mailchimp extended",
       "desc": "Making searching, creating, editing contacts easier for my coworkers.<br/>Tech: ReactJS connected to Mailchimp API",
-      "text": "Mailchimp is great for sending mass emails, but adding new contacts and managing them is a hassle and so i built a new frontend connected to Mailchimp API. Right now I am also integrating our other database with it.<br/>Tech: ReactJS connected to Mailchimp API, Heroku, Javascript",
+      "text": "Mailchimp is great for sending mass emails, but adding new contacts and managing them is a hassle and so i built a new frontend connected to Mailchimp API. Right now I am also integrating our other database with it.<br/><br/>Tech: ReactJS connected to Mailchimp API, Heroku, Javascript",
       "gitlink": "",
       "link": "",
       "image_paths": [
@@ -38,7 +38,7 @@
     {
       "name": "Machine ad scraper",
       "desc": "Scraper which looks at ad-sites and picks out the interesting ads.<br/>Tech: Ruby on Rails, phantomjs, Bootstrap",
-      "text": "Built a scraper which looks at ad-sites and picks out the interesting ads and displays them on an easy to use website. They are saved to the postgresql database. The most difficult sites to scrape were the auction sites. They often use real time rendering javascript which the scraper had problem picking up sometimes.<br/>Tech: Ruby on Rails, phantomjs, Bootstrap, Javascript, Postgresql, Heroku",
+      "text": "Built a scraper which looks at ad-sites and picks out the interesting ads and displays them on an easy to use website.<br/> They are saved to the postgresql database. <br/>The most difficult sites to scrape were the auction sites. They often use real time rendering javascript which the scraper had problem picking up sometimes.<br/><br/>Tech: Ruby on Rails, phantomjs, Bootstrap, Javascript, Postgresql, Heroku",
       "gitlink": "",
       "link": "",
       "image_paths": [
@@ -51,7 +51,7 @@
     {
       "name": "Portfolio",
       "desc": "This portfolio site. <br/>Tech: Node-express, JS, json",
-      "text": "Simple portfoio that is easy to use and maintain. Just edit and add projects to the json file and images to the asset folder. Built with Javascript, Html, css and driven on Node-express server hosted at Heroku.<br/>Tech: Node-express, JS, json as 'database'",
+      "text": "Simple portfoio that is easy to use and maintain. Just edit and add projects to the json file and images to the asset folder. Built with Javascript, Html, css and driven on Node-express server hosted at Heroku.<br/><br/>Tech: Node-express, JS, json as 'database'",
       "gitlink": "https://github.com/andreasaker/simply-portfolio",
       "link": "",
       "image_paths": [
@@ -62,7 +62,7 @@
     {
       "name": "Simple restaurant",
       "desc": "Easy to use restaurant site. <br/>Tech: ReactJS connected to Google firebase.",
-      "text": "Easy to use restaurant site and first serious try with ReactJS.<br/>Tech: ReactJS connected to Google firebase.",
+      "text": "Easy to use restaurant site and first serious try with ReactJS connected to cloud database.<br/><br/>Tech: ReactJS connected to Google firebase.",
       "gitlink": "https://github.com/andreasaker/risturante_react_firebase",
       "link": "",
       "image_paths": [
