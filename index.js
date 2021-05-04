@@ -15,6 +15,10 @@ app.get("/themeSwitch.js", (req, res) => {
   res.sendFile(path.join(__dirname + "/themeSwitch.js"));
 });
 
+app.get("/scrollButton.js", (req, res) => {
+  res.sendFile(path.join(__dirname + "/scrollButton.js"));
+});
+
 app.get("/data.text", (req, res) => {
   res.sendFile(path.join(__dirname + "/data.text"));
 });

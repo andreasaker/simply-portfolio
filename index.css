@@ -72,6 +72,7 @@ button {
   width: 8rem;
   height: 8rem;
   background-color: #6495ed;
+
   color: #ffffff;
 }
 
@@ -166,11 +167,10 @@ body[dark] .project-card {
 }
 
 #up-button {
-  display: none;
   background-color: #6495ed;
   position: fixed;
   bottom: 2rem;
-  right: 3rem;
+  right: 1.5rem;
   width: 3rem;
   height: 3rem;
   border-radius: 3rem;
@@ -179,6 +179,7 @@ body[dark] .project-card {
     rgb(133, 176, 255) 15%,
     rgb(100, 149, 237) 78%
   );
+  cursor: pointer;
 }
 
 #up-button div {
@@ -328,6 +329,12 @@ footer div {
     font-size: 1rem;
     margin-left: 0.5rem;
   }
+
+  #up-button {
+    bottom: 3rem;
+    right: 22rem;
+  }
+
   #switch-theme {
     font-size: 1rem;
   }
