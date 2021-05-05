@@ -211,6 +211,8 @@ footer div {
   grid-template-columns: 93vw;
   gap: 1rem;
   animation: fade-down 500ms;
+  margin-bottom: 4rem;
+}
 }
 
 @keyframes fade-down {
@@ -333,10 +335,16 @@ footer div {
 
   #up-button {
     bottom: 3rem;
-    right: 22rem;
+    right: 9vw;
   }
 
   #switch-theme {
     font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  #up-button {
+    bottom: 3rem;
+    right: 19vw;
   }
 }
