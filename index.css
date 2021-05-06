@@ -39,6 +39,13 @@ a {
   color: #6495ed;
 }
 
+img {
+    image-rendering: -o-crisp-edges;            /* Opera               */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and Safari) */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed       */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                */
+}
+
 button {
   font-family: "M PLUS Rounded 1c";
   border: none;
