@@ -4,6 +4,20 @@
   "description": "This is the description.",
   "projects": [
     {
+      "name": "Generic startpage",
+      "desc": "Current personal project<br/>Tech: ReactJs, Styled components, Javascript, Heroku",
+      "text": "My current personal project.<br/>The goal is to test out styled components and to make easy and reusable components for easy editing in a CMS. <br/><br/>Tech: ReactJs, Styled components, Javascript, Heroku",
+      "gitlink": "https://github.com/andreasaker/generic-startpage",
+      "link": "https://generic-startpage.herokuapp.com/",
+      "image_paths": [
+        "generic_startpage/start.jpg",
+        "generic_startpage/steps.jpg",
+        "generic_startpage/menu.gif",
+        "generic_startpage/gallery_desktop.gif",
+        "generic_startpage/gallery_mobile.gif"
+      ]
+    },
+    {
       "name": "SMT Swedens website",
       "desc": "Old website for the company I work for.<br/>Tech: Ruby on rails, Foundation-css, Javascript, Heroku ",
       "text": "Old website for the company I work for.<br/>Built on Ruby on rails connected to a Postgres database. <br/>Styling made with the help of Foundation css framework. <br/>Some stand out features, draggable sorting list, multilingual site and the select buttons (see pictures)<br /><br/>Tech: Ruby on rails, Postgres, Cloudinary, Foundation-css, Javascript, Heroku",
