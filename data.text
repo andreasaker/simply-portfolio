@@ -9,12 +9,27 @@
       "text": "My current personal project.<br/>The goal is to test out styled components and to make easy and reusable components for easy editing in a CMS. <br/><br/>Tech: ReactJs, Styled components, Javascript, Heroku",
       "gitlink": "https://github.com/andreasaker/generic-startpage",
       "link": "https://generic-startpage.herokuapp.com/",
-      "image_paths": [
-        "generic_startpage/start.jpg",
-        "generic_startpage/steps.jpg",
-        "generic_startpage/menu.gif",
-        "generic_startpage/gallery_desktop.gif",
-        "generic_startpage/gallery_mobile.gif"
+      "images": [
+        {
+          "link": "generic_startpage/start.jpg",
+          "alt": "Start page"
+        },
+        {
+          "link": "generic_startpage/steps.jpg",
+          "alt": ""
+        },
+        {
+          "link": "generic_startpage/menu.gif",
+          "alt": ""
+        },
+        {
+          "link": "generic_startpage/gallery_desktop.gif",
+          "alt": ""
+        },
+        {
+          "link": "generic_startpage/gallery_mobile.gif",
+          "alt": ""
+        }
       ]
     },
     {
@@ -23,18 +38,47 @@
       "text": "Old website for the company I work for.<br/>Built on Ruby on rails connected to a Postgres database. <br/>Styling made with the help of Foundation css framework. <br/>Some stand out features, draggable sorting list, multilingual site and the select buttons (see pictures)<br /><br/>Tech: Ruby on rails, Postgres, Cloudinary, Foundation-css, Javascript, Heroku",
       "gitlink": "",
       "link": "",
-      "image_paths": [
-        "smt_website/smt1.png",
-        "smt_website/smt2.png",
-        "smt_website/smt3.png",
-        "smt_website/smt4.png",
-        "smt_website/smt5.png",
-        "smt_website/smt6.png",
-        "smt_website/smt8.gif",
-        "smt_website/smt7.png",
-        "smt_website/smt10.gif",
-        "smt_website/smt9.png"
-        
+      "images": [
+        {
+          "link": "smt_website/smt1.png",
+          "alt": ""
+        },
+        {
+          "link": "smt_website/smt2.png",
+          "alt": ""
+        },
+        {
+          "link": "smt_website/smt3.png",
+          "alt": ""
+        },
+        {
+          "link": "smt_website/smt4.png",
+          "alt": ""
+        },
+        {
+          "link": "smt_website/smt5.png",
+          "alt": ""
+        },
+        {
+          "link": "smt_website/smt6.png",
+          "alt": ""
+        },
+        {
+          "link": "smt_website/smt8.gif",
+          "alt": ""
+        },
+        {
+          "link": "smt_website/smt7.png",
+          "alt": ""
+        },
+        {
+          "link": "smt_website/smt10.gif",
+          "alt": ""
+        },
+        {
+          "link": "smt_website/smt9.png",
+          "alt": ""
+        }
       ]
     },
     {
@@ -43,10 +87,19 @@
       "text": "Mailchimp is great for sending mass emails, but adding new contacts and managing them is a hassle and so i built a new frontend connected to Mailchimp API. Right now I am also integrating our other database with it.<br/><br/>Tech: ReactJS connected to Mailchimp API, Heroku, Javascript",
       "gitlink": "",
       "link": "",
-      "image_paths": [
-        "mailchimpextended.jpg",
-        "mailchimpextended2.gif",
-        "mailchimpextended3.gif"
+      "images": [
+        {
+          "link": "mailchimpextended.jpg",
+          "alt": ""
+        },
+        {
+          "link": "mailchimpextended2.gif",
+          "alt": ""
+        },
+        {
+          "link": "mailchimpextended3.gif",
+          "alt": ""
+        }
       ]
     },
     {
@@ -55,11 +108,23 @@
       "text": "Built a scraper which looks at ad-sites and picks out the interesting ads and displays them on an easy to use website.<br/> They are saved to the postgresql database. <br/>The most difficult sites to scrape were the auction sites. They often use real time rendering javascript which the scraper had problem picking up sometimes.<br/><br/>Tech: Ruby on Rails, phantomjs, Bootstrap, Javascript, Postgresql, Heroku",
       "gitlink": "",
       "link": "",
-      "image_paths": [
-        "oraklet1.jpg",
-        "oraklet2.jpg",
-        "oraklet3.jpg",
-        "oraklet4.jpg"
+      "images": [
+        {
+          "link": "oraklet1.jpg",
+          "alt": ""
+        },
+        {
+          "link": "oraklet2.jpg",
+          "alt": ""
+        },
+        {
+          "link": "oraklet3.jpg",
+          "alt": ""
+        },
+        {
+          "link": "oraklet4.jpg",
+          "alt": ""
+        }
       ]
     },
     {
@@ -68,9 +133,15 @@
       "text": "Simple portfoio that is easy to use and maintain. Just edit and add projects to the json file and images to the asset folder. Built with Javascript, Html, css and driven on Node-express server hosted at Heroku.<br/><br/>Tech: Node-express, JS, json as 'database'",
       "gitlink": "https://github.com/andreasaker/simply-portfolio",
       "link": "",
-      "image_paths": [
-        "portfolio1.jpg",
-        "portfolio2.jpg"
+      "images": [
+        {
+          "link": "portfolio1.jpg",
+          "alt": ""
+        },
+        {
+          "link": "portfolio2.jpg",
+          "alt": ""
+        }
       ]
     },
     {
@@ -79,9 +150,15 @@
       "text": "Easy to use restaurant site and first serious try with ReactJS connected to cloud database.<br/><br/>Tech: ReactJS connected to Google firebase.",
       "gitlink": "https://github.com/andreasaker/risturante_react_firebase",
       "link": "",
-      "image_paths": [
-        "risturante.png",
-        "risturante2.png"
+      "images": [
+        {
+          "link": "risturante.png",
+          "alt": ""
+        },
+        {
+          "link": "risturante2.png",
+          "alt": ""
+        }
       ]
     }
   ]

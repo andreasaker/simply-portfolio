@@ -44,7 +44,7 @@ const renderProjects = (projects) => {
     imagebox.setAttribute("class", "imagebox");
 
     let image = document.createElement("img");
-    image.setAttribute("src", "/assets/" + p.image_paths[0]);
+    image.setAttribute("src", "/assets/" + p.images[0].link);
 
     imagebox.appendChild(image);
     card.appendChild(imagebox);
@@ -86,27 +86,40 @@ const renderContent = (event) => {
   setTimeout(window.scrollTo(0, 1), 100);
   let id = event.target.getAttribute("value");
   document.getElementById("projects").style.display = "none";
+
   const project = data.projects[id];
   let content = document.getElementById("content");
+
   content.style.display = "grid";
+  //Render Project name and text
   content.getElementsByTagName("h2")[0].innerHTML = project.name;
   content.getElementsByTagName("p")[0].innerHTML = project.text;
+
   let content_links = document.getElementById("content_links");
+  //Render github link
   if (project.gitlink.length > 0) {
     let link = elementBuilder("a", "Github");
     link.setAttribute("href", project.gitlink);
     content_links.appendChild(link);
   }
+  //Render live site link
   if (project.link.length > 0) {
     let link = elementBuilder("a", "Live site");
     link.setAttribute("href", project.link);
     content_links.appendChild(link);
   }
+  //Render images
   let content_images = document.getElementById("content_images");
-  for (let i = 0; i < project.image_paths.length; i++) {
+  for (let i = 0; i < project.images.length; i++) {
     let image = document.createElement("img");
-    image.setAttribute("src", "/assets/" + project.image_paths[i]);
+    image.setAttribute("src", "/assets/" + project.images[i].link);
     content_images.appendChild(image);
+    if (project.images[i].alt) {
+      let altText = elementBuilder("p", project.images[i].alt);
+      content_images.appendChild(altText);
+      let divider = elementBuilder("div", "", "divider");
+      content_images.appendChild(divider);
+    }
   }
 };
 
