@@ -12,23 +12,31 @@
       "images": [
         {
           "link": "generic_startpage/start.jpg",
-          "alt": "Start page"
+          "alt": "Header Component"
+        },
+        {
+          "link": "generic_startpage/OrderChange.gif",
+          "alt": "Example of how you easy can change the order of components."
+        },
+        {
+          "link": "generic_startpage/strapi.jpg",
+          "alt": "Change text and layout with Strapi as backend CMS."
         },
         {
           "link": "generic_startpage/steps.jpg",
-          "alt": ""
-        },
-        {
-          "link": "generic_startpage/menu.gif",
-          "alt": ""
+          "alt": "Steps and ranking component"
         },
         {
           "link": "generic_startpage/gallery_desktop.gif",
-          "alt": ""
+          "alt": "Review gallery component"
+        },
+        {
+          "link": "generic_startpage/menu.gif",
+          "alt": "Mobile layout"
         },
         {
           "link": "generic_startpage/gallery_mobile.gif",
-          "alt": ""
+          "alt": "Mobile review gallery"
         }
       ]
     },
