@@ -5,8 +5,8 @@
   "projects": [
     {
       "name": "Generic startpage",
-      "desc": "Current personal project<br/>Tech: ReactJs, Styled components, Javascript, Heroku",
-      "text": "My current personal project.<br/>The goal is to test out styled components and to make easy and reusable components for easy editing in a CMS. <br/><br/>Tech: ReactJs, Styled components, Javascript, Heroku",
+      "desc": "Startpage with reusable components connected to headless CMS<br/>Tech: ReactJs, Strapi, Heroku",
+      "text": "The goal was to test out styled components and to make reusable components for easy editing in a CMS. <br/><br/>Tech: ReactJs, Styled components, Javascript, Heroku, Strapi CMS",
       "gitlink": "https://github.com/andreasaker/generic-startpage",
       "link": "https://generic-startpage.herokuapp.com/",
       "images": [
